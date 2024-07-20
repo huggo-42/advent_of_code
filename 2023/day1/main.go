@@ -19,8 +19,8 @@ func main() {
 		part2sum += calcCalibrationValueForlinePart2(fileScanner.Text())
 	}
 	readFile.Close()
-	fmt.Println("Sum of all of the calibration values: ", part1sum)
-	fmt.Println("Correct sum of all of the calibration values: ", part2sum)
+	fmt.Println("(Part 1) Sum of all of the calibration values: ", part1sum)
+	fmt.Println("(Part 2) Correct sum of all of the calibration values: ", part2sum)
 }
 
 func calcCalibrationValueForlinePart1(line string) int {
