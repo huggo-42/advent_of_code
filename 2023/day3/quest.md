@@ -1,4 +1,4 @@
-# [Advent of Code](https://adventofcode.com/2023/day/2)
+# [Advent of Code](https://adventofcode.com/2023/day/3)
 
 ## --- Day 3: Gear Ratios ---
 
