@@ -1,4 +1,4 @@
-# [Advent of Code](https://adventofcode.com/2023/day/3)
+# [Advent of Code](https://adventofcode.com/2023/day/4)
 
 ## --- Day 4: Scratchcards ---
 
