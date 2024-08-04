@@ -8,7 +8,7 @@ go run main.go
 (Part 2) The lowest location number is: 46294175
 ```
 
-# [Day 5](https://adventofcode.com/2023/day/5)
+# [Day 5](https://adventofcode.com/2023/day/5) - O(NlogN) solution for part 2
 
 ## --- Day 5: If You Give A Seed A Fertilizer ---
 
