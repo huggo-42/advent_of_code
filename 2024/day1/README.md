@@ -1,3 +1,10 @@
+## Part 1 walkthrough
+As I go through each line of the input I insert each left/right number to it's
+respective left/right array already maintaining the array ordered. So I don't
+have to order it afterwards.
+
+Binary search is used to determine the position to insert each number to its
+array.
 ## Run main.go
 ```console
 go run main.go
@@ -7,12 +14,6 @@ go run main.go
 (Part 1) The total distance between the left list and the right list is 1646452.
 (Part 2) The similarity score at the end of this process is 23609874.
 ```
-## Part 1 walkthrough
-As I go through each line of the input I insert each left/right number to it's
-respective left/right array already maintaining the array ordered. So I don't
-have to order it afterwards.
-Binary search is used to determine the position to insert each number to its
-array.
 
 # [Day 1](https://adventofcode.com/2024/day/1) solution in Go
 
@@ -67,7 +68,6 @@ Your analysis only confirmed what everyone feared: the two lists of location IDs
 Or are they?
 
 The Historians can't agree on which group made the mistakes or how to read most of the Chief's handwriting, but in the commotion you notice an interesting detail: a lot of location IDs appear in both lists! Maybe the other numbers aren't location IDs at all but rather misinterpreted handwriting.
-
 This time, you'll need to figure out exactly how often each number from the left list appears in the right list. Calculate a total similarity score by adding up each number in the left list after multiplying it by the number of times that number appears in the right list.
 
 Here are the same example lists again:
